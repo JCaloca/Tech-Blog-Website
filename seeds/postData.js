@@ -3,12 +3,12 @@ const { Post } = require("../models/Post");
 const postData = [
   {
     title: "First Blog Post",
-    content: "This is an example of a blog post!",
+    post_content: "This is an example of a blog post!",
     user_id: 1,
   },
   {
     title: "MVC the Model View Controller",
-    content: "Second example of a blog post about the MVC!",
+    post_content: "Second example of a blog post about the MVC!",
     user_id: 2,
   },
 ];
