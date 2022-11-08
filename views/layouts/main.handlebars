@@ -21,11 +21,11 @@
       <p class="lead">A place to learn, share and post all your technology related knowledge.</p>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="/" class="navbar-brand" >Home</a>
+      <a href="/" class="nav-link" >Home</a>
       <a href="/dashboard" class="nav-link active">Dashboard</a>
       {{#if loggedIn}}
       <button id="logout" class="nav-link active">Logout</button>
-      {{#else}}
+      {{else}}
       <a href="/login" class="nav-link active">Login</a>
       {{/if}}
     </nav>

@@ -1,5 +1,5 @@
 // Creating connections to server and database
-// TODO: Need to set up for connection to live heroku server
+
 const Sequelize = require("sequelize");
 require("dotenv").config();
 
