@@ -1,10 +1,7 @@
 const router = require("express").Router();
 const { User, Post, Comment } = require("../../models");
-const session = require("express-session");
-
+// Auth helper
 const withAuth = require("../../utils/auth");
-
-const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 // Get all users
 router.get("/", (req, res) => {
