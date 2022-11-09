@@ -5,11 +5,11 @@ const commentData = [
   {
     comment_text: "Wow such an amazing point!",
     user_id: 1,
-    post_id: 1
+    post_id: 2
   },
   {
     comment_text: "This is a great description of MVC!",
-    user_id: 2,
+    user_id: 1,
     post_id: 2
   }
 ];
