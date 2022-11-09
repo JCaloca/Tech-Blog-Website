@@ -40,7 +40,7 @@ router.get("/", withAuth, (req, res) => {
 
 // Route for editing a post
 router.get("/edit/:id", withAuth, (req, res) => {
-  Post.findOne({
+  Post.findByPk({
     where: {
       id: req.params.id,
     },
